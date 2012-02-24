@@ -1,0 +1,172 @@
+/* ---------------------------------------------------------------------------
+ *   Bare AsciiDoc styles
+ *   Ryan Tomayko <r@tomayko.com>
+ *---------------------------------------------------------------------------
+
+@import compass/css3/border-radius
+
+body
+  // font-family: verdana,helvetica,arial,sans-serif
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif
+  font-size: 100%
+  /* 13px
+  line-height: 1.5em
+  /* 20px
+  margin: 40px auto 50px auto
+  max-width: 46em
+  /* 790px
+  color: #333
+
+em
+  font-style: italic
+
+strong
+  font-weight: bold
+  color: #000
+
+tt
+  font-family: consolas, "lucida console", "bitstream vera sans mono", "courier new", monospace
+  color: #000
+  display: inline-block
+  background-color: #ddd
+  padding: 0px 5px
+  +border-radius(3px)
+
+p, ul, ol
+  margin: 15px 0
+
+.imageblock
+  text-align: center
+
+ul li p
+  margin: 10px 0
+
+dl
+  margin: 10px 0
+  margin-left: 40px
+
+dt
+  font-weight: normal
+  color: #000
+
+h1, h2, h3, h4, h5
+  font-family: 'lucida grande',georgia,verdana,helvetica,arial,sans-serif
+  font-weight: normal
+  color: #000
+
+h1
+  font-size: 40px
+  line-height: 1.428
+  margin: 20px 0
+
+h2
+  font-size: 30px
+  line-height: 1.36363636
+  /* repeating, of course
+  margin: 60px 0 20px 0
+
+h3
+  font-size: 24px
+  line-height: 1.1
+  margin: 30px 0 10px 0
+
+h4
+  font-size: 18px
+  line-height: 1.1
+  margin: 20px 0 5px 0
+
+h5
+  font-size: 13px
+  font-style: italic
+  line-height: 1.1
+
+#header
+  text-align: center
+  margin-bottom: 30px
+  h1
+    margin-bottom: 0
+
+.title, .sidebar-title
+  font-weight: normal
+  color: #000
+  margin-bottom: 0
+  font-family: 'lucida grande',georgia,verdana,helvetica,arial,sans-serif
+
+h2
+  border-bottom: 1px solid #000
+  page-break-before: always
+  margin-top: 80px
+
+.admonitionblock
+  background-color: #FFFCDE
+  padding: 10px
+  .title
+    font-weight: bold
+  margin: 30px 0px
+  color: #555
+  td.icon
+    width: 30px
+    padding-right: 20px
+    padding-left: 20px
+    text-transform: uppercase
+    font-weight: bold
+    color: #888
+
+.listingblock
+  margin: 13px 0
+  font-size: 95%
+  line-height: 1.5em
+  tt
+    background-color: transparent
+  .content
+    border: 1px solid #e2e2e2
+      left: 10px solid #e2e2e2
+    background: #f1f1f1
+    padding: 10px
+    pre
+      margin: 0
+
+.literalblock .content
+  margin-left: 40px
+
+.verseblock .content
+  white-space: pre
+
+.sidebarblock .sidebar-content
+  border: 1px solid silver
+  background: #FFFFEE
+  padding: 0 10px
+  color: #222
+  font-size: smaller
+  line-height: 1.5
+
+.sidebar-title
+  margin: 10px 0
+  font-weight: bold
+  color: #442
+
+.quoteblock .content
+  font-style: italic
+  color: #444
+  margin-left: 40px
+  .attribution
+    font-style: normal
+    text-align: right
+    color: #000
+
+.exampleblock .content
+  *:first-child
+    margin-top: 0
+  border-left: 2px solid silver
+  padding-left: 8px
+
+#footer
+  font-size: 11px
+  margin-top: 40px
+  border-top: 1px solid silver
+  color: #555
+
+#author
+  color: #000
+  display: block
+  margin-top: 20px
