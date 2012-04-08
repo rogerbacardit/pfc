@@ -1,11 +1,10 @@
-@charset "UTF-8";
 /* ---------------------------------------------------------------------------
  *   Bare AsciiDoc styles
  *   Ryan Tomayko <r@tomayko.com>
  *--------------------------------------------------------------------------- */
 /* line 8, scribe.sass */
 body {
-  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+  font-family: "helvetica", "Arial";
   font-size: 100%;
   /* 13px */
   line-height: 1.5em;
@@ -71,7 +70,7 @@ dt {
 
 /* line 52, scribe.sass */
 h1, h2, h3, h4, h5 {
-  font-family: "lucida grande", georgia, verdana, helvetica, arial, sans-serif;
+  font-family: "helvetica", "Arial", sans-serif;
   font-weight: normal;
   color: black;
 }
