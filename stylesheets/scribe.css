@@ -28,7 +28,6 @@ strong {
 
 /* line 27, scribe.sass */
 tt {
-  font-family: consolas, "lucida console", "bitstream vera sans mono", "courier new", monospace;
   color: black;
   display: inline-block;
   background-color: #dddddd;
@@ -39,50 +38,52 @@ tt {
   -ms-border-radius: 3px;
   -khtml-border-radius: 3px;
   border-radius: 3px;
+  text-decoration: none;
 }
 
-/* line 35, scribe.sass */
+/* line 36, scribe.sass */
 p, ul, ol {
   margin: 15px 0;
 }
 
-/* line 38, scribe.sass */
+/* line 39, scribe.sass */
 .imageblock {
   text-align: center;
+  width: 600px;
 }
 
-/* line 41, scribe.sass */
+/* line 43, scribe.sass */
 ul li p {
   margin: 10px 0;
 }
 
-/* line 44, scribe.sass */
+/* line 46, scribe.sass */
 dl {
   margin: 10px 0;
   margin-left: 40px;
 }
 
-/* line 48, scribe.sass */
+/* line 50, scribe.sass */
 dt {
   font-weight: normal;
   color: black;
 }
 
-/* line 52, scribe.sass */
+/* line 54, scribe.sass */
 h1, h2, h3, h4, h5 {
   font-family: "helvetica", "Arial", sans-serif;
   font-weight: bold;
   color: black;
 }
 
-/* line 57, scribe.sass */
+/* line 59, scribe.sass */
 h1 {
   font-size: 40px;
   line-height: 1.428;
   margin: 20px 0;
 }
 
-/* line 62, scribe.sass */
+/* line 64, scribe.sass */
 h2 {
   font-size: 30px;
   line-height: 1.364;
@@ -90,7 +91,7 @@ h2 {
   margin: 60px 0 20px 0;
 }
 
-/* line 68, scribe.sass */
+/* line 70, scribe.sass */
 h3 {
   font-size: 18px;
   line-height: 1.1;
@@ -98,31 +99,30 @@ h3 {
   font-weight: bold;
 }
 
-/* line 74, scribe.sass */
+/* line 76, scribe.sass */
 h4 {
   font-size: 18px;
   line-height: 1.1;
   margin: 20px 0 5px 0;
 }
 
-/* line 79, scribe.sass */
+/* line 81, scribe.sass */
 h5 {
   font-size: 13px;
   font-style: italic;
   line-height: 1.1;
 }
 
-/* line 84, scribe.sass */
+/* line 86, scribe.sass */
 #header {
-  text-align: center;
   margin-bottom: 30px;
 }
-/* line 87, scribe.sass */
+/* line 89, scribe.sass */
 #header h1 {
   margin-bottom: 0;
 }
 
-/* line 90, scribe.sass */
+/* line 92, scribe.sass */
 .title, .sidebar-title {
   font-weight: normal;
   color: black;
@@ -130,24 +130,24 @@ h5 {
   font-family: "lucida grande", georgia, verdana, helvetica, arial, sans-serif;
 }
 
-/* line 96, scribe.sass */
+/* line 98, scribe.sass */
 h2 {
   page-break-before: always;
   margin-top: 80px;
 }
 
-/* line 101, scribe.sass */
+/* line 103, scribe.sass */
 .admonitionblock {
   background-color: #fffcde;
   padding: 10px;
   margin: 30px 0px;
   color: #555555;
 }
-/* line 104, scribe.sass */
+/* line 106, scribe.sass */
 .admonitionblock .title {
   font-weight: bold;
 }
-/* line 108, scribe.sass */
+/* line 110, scribe.sass */
 .admonitionblock td.icon {
   width: 30px;
   padding-right: 20px;
@@ -157,39 +157,39 @@ h2 {
   color: #888888;
 }
 
-/* line 116, scribe.sass */
+/* line 118, scribe.sass */
 .listingblock {
   margin: 13px 0;
   font-size: 95%;
   line-height: 1.5em;
 }
-/* line 120, scribe.sass */
+/* line 122, scribe.sass */
 .listingblock tt {
   background-color: transparent;
 }
-/* line 122, scribe.sass */
+/* line 124, scribe.sass */
 .listingblock .content {
   border: 1px solid #e2e2e2;
   border-left: 10px solid #e2e2e2;
   background: #f1f1f1;
   padding: 10px;
 }
-/* line 127, scribe.sass */
+/* line 129, scribe.sass */
 .listingblock .content pre {
   margin: 0;
 }
 
-/* line 130, scribe.sass */
+/* line 132, scribe.sass */
 .literalblock .content {
   margin-left: 40px;
 }
 
-/* line 133, scribe.sass */
+/* line 135, scribe.sass */
 .verseblock .content {
   white-space: pre;
 }
 
-/* line 136, scribe.sass */
+/* line 138, scribe.sass */
 .sidebarblock .sidebar-content {
   border: 1px solid silver;
   background: #ffffee;
@@ -199,37 +199,37 @@ h2 {
   line-height: 1.5;
 }
 
-/* line 144, scribe.sass */
+/* line 146, scribe.sass */
 .sidebar-title {
   margin: 10px 0;
   font-weight: bold;
   color: #444422;
 }
 
-/* line 149, scribe.sass */
+/* line 151, scribe.sass */
 .quoteblock .content {
   font-style: italic;
   color: #444444;
   margin-left: 40px;
 }
-/* line 153, scribe.sass */
+/* line 155, scribe.sass */
 .quoteblock .content .attribution {
   font-style: normal;
   text-align: right;
   color: black;
 }
 
-/* line 158, scribe.sass */
+/* line 160, scribe.sass */
 .exampleblock .content {
   border-left: 2px solid silver;
   padding-left: 8px;
 }
-/* line 159, scribe.sass */
+/* line 161, scribe.sass */
 .exampleblock .content *:first-child {
   margin-top: 0;
 }
 
-/* line 164, scribe.sass */
+/* line 166, scribe.sass */
 #footer {
   font-size: 11px;
   margin-top: 40px;
@@ -237,7 +237,7 @@ h2 {
   color: #555555;
 }
 
-/* line 170, scribe.sass */
+/* line 172, scribe.sass */
 #author {
   color: black;
   display: block;
