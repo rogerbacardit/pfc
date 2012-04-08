@@ -71,7 +71,7 @@ dt {
 /* line 52, scribe.sass */
 h1, h2, h3, h4, h5 {
   font-family: "helvetica", "Arial", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   color: black;
 }
 
@@ -132,7 +132,6 @@ h5 {
 
 /* line 96, scribe.sass */
 h2 {
-  border-bottom: 1px solid black;
   page-break-before: always;
   margin-top: 80px;
 }
