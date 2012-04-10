@@ -104,25 +104,26 @@ h4 {
   font-size: 18px;
   line-height: 1.1;
   margin: 20px 0 5px 0;
+  color: grey;
 }
 
-/* line 81, scribe.sass */
+/* line 82, scribe.sass */
 h5 {
   font-size: 13px;
   font-style: italic;
   line-height: 1.1;
 }
 
-/* line 86, scribe.sass */
+/* line 87, scribe.sass */
 #header {
   margin-bottom: 30px;
 }
-/* line 89, scribe.sass */
+/* line 90, scribe.sass */
 #header h1 {
   margin-bottom: 0;
 }
 
-/* line 92, scribe.sass */
+/* line 93, scribe.sass */
 .title, .sidebar-title {
   font-weight: normal;
   color: black;
@@ -130,24 +131,24 @@ h5 {
   font-family: "helvetica", "Arial";
 }
 
-/* line 98, scribe.sass */
+/* line 99, scribe.sass */
 h2 {
   page-break-before: always;
   margin-top: 80px;
 }
 
-/* line 103, scribe.sass */
+/* line 104, scribe.sass */
 .admonitionblock {
   background-color: #fffcde;
   padding: 10px;
   margin: 30px 0px;
   color: #555555;
 }
-/* line 106, scribe.sass */
+/* line 107, scribe.sass */
 .admonitionblock .title {
   font-weight: bold;
 }
-/* line 110, scribe.sass */
+/* line 111, scribe.sass */
 .admonitionblock td.icon {
   width: 30px;
   padding-right: 20px;
@@ -157,39 +158,39 @@ h2 {
   color: #888888;
 }
 
-/* line 118, scribe.sass */
+/* line 119, scribe.sass */
 .listingblock {
   margin: 13px 0;
   font-size: 95%;
   line-height: 1.5em;
 }
-/* line 122, scribe.sass */
+/* line 123, scribe.sass */
 .listingblock tt {
   background-color: transparent;
 }
-/* line 124, scribe.sass */
+/* line 125, scribe.sass */
 .listingblock .content {
   border: 1px solid #e2e2e2;
   border-left: 10px solid #e2e2e2;
   background: #f1f1f1;
   padding: 10px;
 }
-/* line 129, scribe.sass */
+/* line 130, scribe.sass */
 .listingblock .content pre {
   margin: 0;
 }
 
-/* line 132, scribe.sass */
+/* line 133, scribe.sass */
 .literalblock .content {
   margin-left: 40px;
 }
 
-/* line 135, scribe.sass */
+/* line 136, scribe.sass */
 .verseblock .content {
   white-space: pre;
 }
 
-/* line 138, scribe.sass */
+/* line 139, scribe.sass */
 .sidebarblock .sidebar-content {
   border: 1px solid silver;
   background: #ffffee;
@@ -199,37 +200,37 @@ h2 {
   line-height: 1.5;
 }
 
-/* line 146, scribe.sass */
+/* line 147, scribe.sass */
 .sidebar-title {
   margin: 10px 0;
   font-weight: bold;
   color: #444422;
 }
 
-/* line 151, scribe.sass */
+/* line 152, scribe.sass */
 .quoteblock .content {
   font-style: italic;
   color: #444444;
   margin-left: 40px;
 }
-/* line 155, scribe.sass */
+/* line 156, scribe.sass */
 .quoteblock .content .attribution {
   font-style: normal;
   text-align: right;
   color: black;
 }
 
-/* line 160, scribe.sass */
+/* line 161, scribe.sass */
 .exampleblock .content {
   border-left: 2px solid silver;
   padding-left: 8px;
 }
-/* line 161, scribe.sass */
+/* line 162, scribe.sass */
 .exampleblock .content *:first-child {
   margin-top: 0;
 }
 
-/* line 166, scribe.sass */
+/* line 167, scribe.sass */
 #footer {
   font-size: 11px;
   margin-top: 40px;
@@ -237,7 +238,7 @@ h2 {
   color: #555555;
 }
 
-/* line 172, scribe.sass */
+/* line 173, scribe.sass */
 #author {
   color: black;
   display: block;
